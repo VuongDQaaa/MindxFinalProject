@@ -10,7 +10,7 @@
     --primary-color: hsl(18, 99%, 54%);
     --primary-color-hover: hsl(20, 90%, 45%);
     --title-color: hsl(240, 5%, 10%);
-    --body-color: #f8f7fd;
+    --white-color: #f8f7fd;
     --text: #666;
     --lighter: #999;
     --dark: #222;
@@ -84,16 +84,14 @@ html {
     scroll-behavior: smooth;
     font-size: 50%;
 }
-body,
-button,
-input {
+body {
     font-family: 'Rajdhani', sans-serif;
     font-size: var(--normal-font-size);
 }
 
 body {
-    background-color: var(--body-color);
-    color: var(--text-color);
+    background-color: var(--white-color);
+    color: var(--text);
 }
 ul {
     list-style: none;
@@ -135,6 +133,33 @@ h6 {font-size: var(--h6-font-size);}
 }
 .d-flex {
     display: flex;
+}
+
+/*=============== BUTTONS ===============*/
+.button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1.6rem 3.2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    transition: .3s;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background: var(--primary-color-hover);
+}
+
+.button__icon {
+    font-size: 2.4rem;
+}
+
+/* button + icon */
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 1rem;
 }
 
 
