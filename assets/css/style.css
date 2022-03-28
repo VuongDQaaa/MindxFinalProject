@@ -30,9 +30,6 @@
     --small-font-size: 1.4rem;
     --smaller-font-size: 1.2rem;
 
-    /*========== Font weight ==========*/
-    --font-medium: 500;
-    --font-bold: 600;
 
     /*========== Margenes Bottom ==========*/
     --mb-0-8: .8rem;
@@ -91,7 +88,8 @@ body {
 
 body {
     background-color: var(--white-color);
-    color: var(--text);
+    color: var(--dark);
+    font-weight: 500;
 }
 ul {
     list-style: none;
