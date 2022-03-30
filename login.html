@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+   <head>
+      <meta charset="utf-8">
+      <title>Document</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./login.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="title-text">
+            <div class="title login">
+               Sign in
+            </div>
+            <div class="title signup">
+               Sign up
+            </div>
+         </div>
+         <div class="form-container">
+            <div class="slide-controls">
+               <input type="radio" name="slide" id="login" checked>
+               <input type="radio" name="slide" id="signup">
+               <label for="login" class="slide login">Sign in</label>
+               <label for="signup" class="slide signup">Sign up</label>
+               <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+               <form action="#" class="login">
+                  <div class="field">
+                     <input type="email" placeholder="Email address" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Password" required>
+                  </div>
+                  <div class="pass-link">
+                     <a href="#">Forgot your password?</a>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" value="Sign in">
+                  </div>
+                  <div class="signup-link">
+                     Not have an account? <a href="">Sign up now</a>
+                  </div>
+               </form>
+               <form action="#" class="signup">
+                  <div class="field">
+                     <input type="text" placeholder="Enter your email" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Enter your password" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Confirm your password" required>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" value=" Sign up">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="./login.js"></script>
+</html>
