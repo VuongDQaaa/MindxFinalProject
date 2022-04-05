@@ -127,10 +127,18 @@ h6 {font-size: var(--h6-font-size);}
 }
 
 .grid {
-    display: grid;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
 }
-.d-flex {
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 /*=============== BUTTONS ===============*/
