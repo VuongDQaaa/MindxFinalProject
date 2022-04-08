@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    cursor: pointer;
 }
 
 a {
@@ -52,6 +51,7 @@ header .top-header #menu .item {
     margin: 0px 30px;
     color: #fff;
     transition: color 0.4s;
+    cursor: pointer;
 }
 
 header .top-header #menu .item:hover {
